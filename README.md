@@ -1,5 +1,5 @@
 # CellAutomaton
-##lifegame
+##  lifegame
 [src/java/main](https://github.com/mocomocco/CellAutomaton/tree/master/src/main/java)にプログラムがあります。
 
 実行すると10*20サイズの盤面で初期状態がランダムに定まり、停止されるまで更新し続けます。
