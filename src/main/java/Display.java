@@ -42,30 +42,14 @@ public class Display extends JFrame implements MouseListener, MouseMotionListene
 
 	public void mouseClicked(MouseEvent arg0) {
 		// TODO Auto-generated method stub
-		/*if(currenttoolnum==3){currentcolor=new Color(panel.getRGB(newx,newy));
-			currentpanel.setPenColor(currentcolor);
-			toolcolor.setForeground(currentcolor);
-			currenttoolnum=0;
-			toollabel.setText("tool:pen");}*/
 	}
 
 	public void mousePressed(MouseEvent arg0) {
 		// TODO Auto-generated method stub
-		/*if(currenttoolnum==3){currentcolor=new Color(panel.getRGB(newx,newy));
-			currentpanel.setPenColor(currentcolor);
-			toolcolor.setForeground(currentcolor);
-			currenttoolnum=0;
-			toollabel.setText("tool:pen");}*/
 	}
 
 	public void mouseReleased(MouseEvent arg0) {
 		// TODO Auto-generated method stub
-		/*if(currenttoolnum==3){currentcolor=new Color(panel.getRGB(newx,newy));
-			currentpanel.setPenColor(currentcolor);
-			toolcolor.setForeground(currentcolor);
-			currenttoolnum=0;
-			toollabel.setText("tool:pen");}*/
-
 	}
 
 	public void mouseEntered(MouseEvent e) {
@@ -82,9 +66,6 @@ public class Display extends JFrame implements MouseListener, MouseMotionListene
 		thisworld=world;
 		this.setTitle("Lifegame");
 		this.setSize(windoww,windowh);
-
-
-		//panel.setpaperSize(new Dimension(2480, 3508));
 
 
 		Font f = new Font("Serif", Font.PLAIN, 50);
